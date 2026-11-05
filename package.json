@@ -1,0 +1,17 @@
+{
+  "name": "oasis-open",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Reusable pieces of the Oasis Engineering platform: a PDF seal checker, a tap-first interview DSL, small ops tools and document templates.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --test --experimental-strip-types \"packages/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
